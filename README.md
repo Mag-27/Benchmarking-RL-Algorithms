@@ -1,6 +1,15 @@
-# Benchmarking RL Algorithms
+# 🤖 Benchmarking RL Algorithms
 
-From-scratch PyTorch implementations of value-based and policy-gradient/actor-critic deep RL algorithms, benchmarked on classic-control and MuJoCo continuous-control tasks. Everything — networks, replay buffers, exploration schedules, multiprocess rollout workers — is implemented directly on top of `torch`, with no RL library (Stable-Baselines3, RLlib, etc.) in the loop. Two notebooks: one for value-based methods, one for policy-gradient and actor-critic methods.
+## Value-Based and Policy-Gradient/Actor-Critic Deep RL, From Scratch
+
+![Language](https://img.shields.io/badge/Language-Python%203.11%2B-3776AB?style=flat-square)
+![Framework](https://img.shields.io/badge/Framework-PyTorch-EE4C2C?style=flat-square)
+![Environments](https://img.shields.io/badge/Environments-Gymnasium%20%2B%20MuJoCo-blue?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Results%20In%20Progress-yellow?style=flat-square)
+
+**From-scratch PyTorch implementations of 14 deep RL algorithms, spanning value-based and policy-gradient/actor-critic families, benchmarked on classic-control and MuJoCo continuous-control tasks.**
+
+Everything — networks, replay buffers, exploration schedules, multiprocess rollout workers — is implemented directly on top of `torch`, with no RL library (Stable-Baselines3, RLlib, etc.) in the loop. Two notebooks: one for value-based methods, one for policy-gradient and actor-critic methods.
 
 ## Algorithms
 
